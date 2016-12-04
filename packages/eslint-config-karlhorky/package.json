@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/karlhorky/javascript#readme",
   "dependencies": {
-    "eslint-config-airbnb": "13.0.0",
+    "eslint-config-airbnb": "13.0.0"
   },
   "peerDependencies": {
     "babel-eslint": "7.0.0",
