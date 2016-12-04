@@ -4,7 +4,7 @@
 
 ## Install
 
-This contains ESLint rules for ECMAScript 6+, React and Flow. It requires `eslint`, `eslint-plugin-flowtype`, `eslint-plugin-import`, `eslint-plugin-react`, and `eslint-plugin-jsx-a11y`.
+This contains ESLint rules for ECMAScript 6+, React and Flow. It requires `eslint`, `eslint-plugin-babel`, `eslint-plugin-flowtype`, `eslint-plugin-import`, `eslint-plugin-jsx-a11y`, `eslint-plugin-react`, and `eslint-plugin-sorting`.
 
 1. Ensure packages are installed with correct version numbers by running:
   ```sh
@@ -17,7 +17,7 @@ This contains ESLint rules for ECMAScript 6+, React and Flow. It requires `eslin
   Which produces and runs a command like:
 
   ```sh
-  npm install --save-dev eslint-config-karlhorky eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-jsx-flowtype@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
+  npm install --save-dev eslint-config-karlhorky eslint@^#.#.# eslint-plugin-babel@^#.#.# eslint-plugin-flowtype@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-sorting@^#.#.#
   ```
 
 2. Add `"extends": "karlhorky"` to your .eslintrc
