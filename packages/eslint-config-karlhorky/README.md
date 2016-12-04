@@ -1,0 +1,23 @@
+# eslint-config-karlhorky
+
+@karlhorky's ESLint config.
+
+## Install
+
+This contains ESLint rules for ECMAScript 6+, React and Flow. It requires `eslint`, `eslint-plugin-flowtype`, `eslint-plugin-import`, `eslint-plugin-react`, and `eslint-plugin-jsx-a11y`.
+
+1. Ensure packages are installed with correct version numbers by running:
+  ```sh
+  (
+    export PKG=eslint-config-karlhorky;
+    npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
+  )
+  ```
+
+  Which produces and runs a command like:
+
+  ```sh
+  npm install --save-dev eslint-config-karlhorky eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-jsx-flowtype@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
+  ```
+
+2. Add `"extends": "karlhorky"` to your .eslintrc
