@@ -29,7 +29,8 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     'react/no-unused-prop-types': 'off', // Use Flow typing instead
-    'react/no-direct-mutation-state': 'error',
+    'react/no-direct-mutation-state': 'error', // Use .setState() always (Airbnb rule change)
+    'react/jsx-filename-extension': 'off', // Don't require .jsx file extension for files with JSX in them (Airbnb rule change)
 
     // https://github.com/babel/eslint-plugin-babel#rules
     'babel/object-curly-spacing': 'error', // No spaces in single-line objects to make nested objects like {a: {b: 'c'}} look more sane (Airbnb rule change)
