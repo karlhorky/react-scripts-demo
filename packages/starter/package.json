@@ -1,9 +1,0 @@
-{
-  "name": "@karlhorky/starter",
-  "version": "1.0.0",
-  "description": "Starter for new projects",
-  "main": "index.js",
-  "repository": "karlhorky/javascript",
-  "author": "Karl Horky <karl.horky@gmail.com> (https://work.karlhorky.com)",
-  "license": "MIT"
-}

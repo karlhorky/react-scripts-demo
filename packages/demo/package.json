@@ -1,0 +1,22 @@
+{
+  "name": "@karlhorky/demo",
+  "version": "1.0.0",
+  "description": "Demo of technology to use for new projects",
+  "main": "index.js",
+  "repository": "karlhorky/javascript",
+  "author": "Karl Horky <karl.horky@gmail.com> (https://work.karlhorky.com)",
+  "license": "MIT"
+  "devDependencies": {
+    "@karlhorky/react-scripts": "0.8.1-rc.0"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
