@@ -5,9 +5,9 @@
   "main": "index.js",
   "repository": "karlhorky/javascript",
   "author": "Karl Horky <karl.horky@gmail.com> (https://work.karlhorky.com)",
-  "license": "MIT"
+  "license": "MIT",
   "devDependencies": {
-    "@karlhorky/react-scripts": "0.8.1-rc.0"
+    "@karlhorky/react-scripts": "0.8.1-rc.1"
   },
   "dependencies": {
     "react": "^15.4.1",
