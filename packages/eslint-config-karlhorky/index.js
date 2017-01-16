@@ -1,7 +1,5 @@
 module.exports = {
-  extends: [
-    'airbnb' // Many strict rules for ECMAScript and React
-  ],
+  extends: 'airbnb', // Many strict rules for ECMAScript and React
 
   parser: 'babel-eslint',
 
