@@ -5,8 +5,7 @@ module.exports = {
 
   plugins: [
     'babel',
-    'flowtype',
-    'sorting'
+    'flowtype'
   ],
 
   env: {
@@ -45,9 +44,6 @@ module.exports = {
         'index' // import main from './';
       ]
     }],
-
-    // https://github.com/jacobrask/eslint-plugin-sorting#rule-details
-    'sorting/sort-object-props': 'error', // Always make object properties come in same order
 
     // https://github.com/gajus/eslint-plugin-flowtype
     'flowtype/define-flow-type': 'warn',
