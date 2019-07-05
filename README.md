@@ -1,2 +1,1 @@
-# javascript
-JavaScript guidelines by @karlhorky
+packages/demo/README.md
